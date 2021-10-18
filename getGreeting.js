@@ -1,3 +1,6 @@
 export function getGreeting(name = 'you') {
-    return `Hello ${name}!`;
+  if (name === 'Jerry') {
+    return 'Hello Coach!'
+  }
+  return `Hello ${name}!`
 }
